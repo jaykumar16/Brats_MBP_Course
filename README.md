@@ -33,7 +33,7 @@ The parameters can be changed inside the test.py file. To change the number of l
 
 
 To calculate the HD and DICE of the test dataset use matlab, ```Unet_UnetP_Analysis.m```
-
+To visualize the contours of the brain, ```VisualizeSegmenrationContour.m```
 
 Jupyter Notebook: ```test_ROC_Presicion.ipynb```
 
