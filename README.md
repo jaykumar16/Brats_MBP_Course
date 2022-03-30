@@ -16,6 +16,16 @@ pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu
 pip3 install opencv-python
 ```
 
+The preprocess to create the training, validation and test data,
+``` 
+preprocessing.ipynb
+```
+
+To run the optuna hyperparameter tuning for Unet++ and Unet is,
+
+```
+Unet++HyperOptimization.ipynb & UnetHyperOptimization.ipynb ```
+
 To run training:
 
 ```
