@@ -31,6 +31,10 @@ To run testing:
 The parameters can be changed inside the test.py file. To change the number of layers,
  number of features of the layers and optimizer, please change inside ```./models/__init__.py```.
 
+
+To calculate the HD and DICE of the test dataset use matlab, ```Unet_UnetP_Analysis.m```
+
+
 Jupyter Notebook: ```test_ROC_Presicion.ipynb```
 
 To visualize the result and plot ROC and precision curves.
