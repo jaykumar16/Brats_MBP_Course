@@ -18,14 +18,15 @@ pip3 install opencv-python
 
 To run training:
 
+```
 ./train.py 
-
-The parameters can be changed inside the train.py file. To change the number of layers, number of features of the layers and optimizer, please change inside ./models/__init__.py.
+```
+The parameters can be changed inside the train.py file. To change the number of layers, number of features of the layers and optimizer, please change inside ```./models/__init__.py```.
 
 
 To run testing:
 
-./test.py 
+```./test.py``` 
 
 The parameters can be changed inside the train.py file. To change the number of layers,
  number of features of the layers and optimizer, please change inside ./models/__init__
