@@ -4,7 +4,7 @@ Jaykumar Patel and Samal Munidasa
 
 Require Packages:
 
-pip3 install git+https://github.com/lucasb-eyer/pydensecrf.git
+pip3 install git+https://github.com/lucasb-eyer/pydensecrf.git \n
 pip3 install logging 
 pip3 install nibabel 
 pip3 install h5py 
