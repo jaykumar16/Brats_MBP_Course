@@ -29,9 +29,8 @@ To run testing:
 ```./test.py``` 
 
 The parameters can be changed inside the test.py file. To change the number of layers,
- number of features of the layers and optimizer, please change inside ./models/__init__
-.py.
+ number of features of the layers and optimizer, please change inside ```./models/__init__.py```.
 
-Jupyter Notebook: test_ROC_Presicion.ipynb
+Jupyter Notebook: ```test_ROC_Presicion.ipynb```
 
-To visulize the result and plot ROC and precision curves.
+To visualize the result and plot ROC and precision curves.
