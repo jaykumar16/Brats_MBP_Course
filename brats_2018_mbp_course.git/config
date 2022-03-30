@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://gitlab.com/jaykumar16/brats_2018_mbp_course.git
+	fetch = +refs/*:refs/*
+	mirror = true
