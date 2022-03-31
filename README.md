@@ -19,7 +19,7 @@ To run the optuna hyperparameter tuning for Unet++ and Unet is,
 ```
 Unet++HyperOptimization.ipynb & UnetHyperOptimization.ipynb 
 ```
-
+The result of the optimization is saved in studyUnet.pkl and studyUnetPlusPlusNew.pkl. 
 
 
 To run training:
