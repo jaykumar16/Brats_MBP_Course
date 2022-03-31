@@ -2,7 +2,7 @@ Unet and Unet ++
 
 Jaykumar Patel and Samal Munidasa
 
-This code is tested with the python3.8 and matlab2018b.
+This code is tested with the ```python3.8``` and ```matlab2018b```.
 
 Require Packages:
 ```
