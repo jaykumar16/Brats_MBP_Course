@@ -36,6 +36,8 @@ To run testing:
 ```
 ./test.py
 ``` 
+The final trained models are provided in a folder Unet_final and Unetpp_final. 
+
 To calculate the HD and DICE of the test dataset use matlab, ``` Unet_UnetP_Analysis.m ```
 To visualize the contours of the brain, ``` VisualizeSegmenrationContour.m ```
 
