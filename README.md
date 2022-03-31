@@ -16,20 +16,39 @@ pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu
 pip3 install opencv-python
 ```
 
+The preprocess to create the training, validation and test data,
+``` 
+preprocessing.ipynb
+```
+
+To run the optuna hyperparameter tuning for Unet++ and Unet is,
+
+```
+Unet++HyperOptimization.ipynb & UnetHyperOptimization.ipynb 
+```
+
+
+
 To run training:
 
 ```
 ./train.py 
 ```
+
 The parameters can be changed inside the train.py file. To change the number of layers, number of features of the layers and optimizer, please change inside ```./models/__init__.py```.
 
 
 To run testing:
 
-```./test.py``` 
+```
+./test.py
+``` 
 
-The parameters can be changed inside the test.py file. To change the number of layers,
- number of features of the layers and optimizer, please change inside ```./models/__init__.py```.
+The parameters can be changed inside the test.py file. To change the number of layers, number of features of the layers and optimizer, please change inside ```./models/__init__.py```.
+
+
+To calculate the HD and DICE of the test dataset use matlab, ``` Unet_UnetP_Analysis.m ```
+To visualize the contours of the brain, ``` VisualizeSegmenrationContour.m ```
 
 Jupyter Notebook: ```test_ROC_Presicion.ipynb```
 
