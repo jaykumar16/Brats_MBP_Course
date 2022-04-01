@@ -5,7 +5,7 @@ Jaykumar Patel and Samal Munidasa
 This code is tested with the ```python3.8``` and ```matlab2018b```.
 Data:
 ```
-https://www.kaggle.com/datasets/awsaf49/brats2020-training-data/code 
+https://www.kaggle.com/datasets/awsaf49/brats2020-training-data
 ```
 Require Packages:
 ```
