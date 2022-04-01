@@ -3,7 +3,10 @@ Unet and Unet ++
 Jaykumar Patel and Samal Munidasa
 
 This code is tested with the ```python3.8``` and ```matlab2018b```.
-
+Data:
+```
+https://www.kaggle.com/datasets/awsaf49/brats2020-training-data
+```
 Require Packages:
 ```
 pip3 install -r requirements.txt
@@ -19,7 +22,7 @@ To run the optuna hyperparameter tuning for Unet++ and Unet is,
 ```
 Unet++HyperOptimization.ipynb & UnetHyperOptimization.ipynb 
 ```
-
+The result of the optimization is saved in studyUnet.pkl and studyUnetPlusPlusNew.pkl. 
 
 
 To run training:
@@ -36,6 +39,8 @@ To run testing:
 ```
 ./test.py
 ``` 
+The final trained models are provided in a folder Unet_final and Unetpp_final. 
+
 To calculate the HD and DICE of the test dataset use matlab, ``` Unet_UnetP_Analysis.m ```
 To visualize the contours of the brain, ``` VisualizeSegmenrationContour.m ```
 
