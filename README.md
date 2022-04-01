@@ -3,7 +3,10 @@ Unet and Unet ++
 Jaykumar Patel and Samal Munidasa
 
 This code is tested with the ```python3.8``` and ```matlab2018b```.
-
+Data:
+```
+https://www.kaggle.com/datasets/awsaf49/brats2020-training-data/code 
+```
 Require Packages:
 ```
 pip3 install -r requirements.txt
